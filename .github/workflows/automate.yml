@@ -2,7 +2,7 @@ name: Create pull request
 on:
   push:
     branches:
-      - version_update_2
+      - version_update
 jobs:
   prForMasterBranch:
     runs-on: ubuntu-latest
