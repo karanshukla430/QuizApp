@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Specify the details of the third-party repository and your repository
-THIRD_PARTY_REPO="karanshukla430/github_finder"
-YOUR_REPO="SaurbhPandey/github_finder123"
+THIRD_PARTY_REPO="karanshukla430/QuizApp"
+YOUR_REPO="SaurbhPandey/QuizApp1234"
 BRANCH_NAME="version_update_2"
 
 # Get the current date and time in the format YYYY-MM-DD_HH-MM-SS
@@ -24,7 +24,7 @@ else
     git pull origin master
     git checkout -b "$NEW_BRANCH_NAME"
     echo "Created branch '$NEW_BRANCH_NAME'."
-    git remote add source https://github.com/karanshukla430/github_finder.git
+    git remote add source https://github.com/karanshukla430/QuizApp.git
     # PREVIOUS_COMMIT=$(git rev-parse HEAD@{1})
     git pull source master
     # Get the commit hashes of the previous commit and current HEAD
