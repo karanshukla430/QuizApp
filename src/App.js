@@ -5,6 +5,12 @@ import Quizes from "./Component/Quizes";
 import FinalScore from "./Component/FinalScore";
 
 function App() {
+  // Hurray
+   // Hurray
+   // Hurray
+   // Hurray
+   // Hurray
+   // Hurray
   return (
     <Router>
     
