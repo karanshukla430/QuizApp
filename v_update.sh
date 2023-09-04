@@ -3,7 +3,7 @@
 # Specify the details of the third-party repository and your repository
 THIRD_PARTY_REPO="karanshukla430/QuizApp"
 YOUR_REPO="SaurbhPandey/QuizApp1234"
-BRANCH_NAME="version_update"
+BRANCH_NAME="version_update1"
 
 # Get the current date and time in the format YYYY-MM-DD_HH-MM-SS
 DATE_TIME=$(date +"%Y-%m-%d_%H-%M-%S")
